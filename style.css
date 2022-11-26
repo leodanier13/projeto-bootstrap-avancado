@@ -1,0 +1,46 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    background-color: #3b5efcf3;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: rgba(50, 91, 204, 0.822);
+    color: #fff;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
+    color: rgb(255, 255, 255);
+}
+
+.text-colored {
+    color: #2d74f8;
+}
+
+.section-title {
+    font-family: 'pacifico', cursive;
+}
+
+.navbar-toggler {
+    background-color: rgba(255, 255, 255, 0.44);
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
